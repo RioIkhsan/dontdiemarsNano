@@ -11,6 +11,8 @@
 		0B209ADC2BE649CB008C6E8C /* space-ambient.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B209ADB2BE649CB008C6E8C /* space-ambient.mp3 */; };
 		0B209ADE2BE64AFC008C6E8C /* TransitionDustScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B209ADD2BE64AFC008C6E8C /* TransitionDustScene.swift */; };
 		0B209AE02BE64BE7008C6E8C /* strom-desert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B209ADF2BE64BE7008C6E8C /* strom-desert.mp3 */; };
+		0B209AE22BE64F9A008C6E8C /* TransitionDustAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B209AE12BE64F9A008C6E8C /* TransitionDustAnnouncement.swift */; };
+		0B209AE42BE64FF6008C6E8C /* dust-announcement.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B209AE32BE64FF6008C6E8C /* dust-announcement.mp3 */; };
 		0B6B07932BE6363800E25AC6 /* dontdieinmarsNanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B07922BE6363800E25AC6 /* dontdieinmarsNanoApp.swift */; };
 		0B6B07952BE6363800E25AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B07942BE6363800E25AC6 /* ContentView.swift */; };
 		0B6B07972BE6363900E25AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6B07962BE6363900E25AC6 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		0B209ADB2BE649CB008C6E8C /* space-ambient.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "space-ambient.mp3"; sourceTree = "<group>"; };
 		0B209ADD2BE64AFC008C6E8C /* TransitionDustScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDustScene.swift; sourceTree = "<group>"; };
 		0B209ADF2BE64BE7008C6E8C /* strom-desert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "strom-desert.mp3"; sourceTree = "<group>"; };
+		0B209AE12BE64F9A008C6E8C /* TransitionDustAnnouncement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDustAnnouncement.swift; sourceTree = "<group>"; };
+		0B209AE32BE64FF6008C6E8C /* dust-announcement.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dust-announcement.mp3"; sourceTree = "<group>"; };
 		0B6B078F2BE6363800E25AC6 /* dontdieinmarsNano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dontdieinmarsNano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6B07922BE6363800E25AC6 /* dontdieinmarsNanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dontdieinmarsNanoApp.swift; sourceTree = "<group>"; };
 		0B6B07942BE6363800E25AC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				0B209ADB2BE649CB008C6E8C /* space-ambient.mp3 */,
+				0B209AE32BE64FF6008C6E8C /* dust-announcement.mp3 */,
 				0B209ADF2BE64BE7008C6E8C /* strom-desert.mp3 */,
 				0B6B07922BE6363800E25AC6 /* dontdieinmarsNanoApp.swift */,
 				0B6B07942BE6363800E25AC6 /* ContentView.swift */,
@@ -110,6 +115,7 @@
 				0B6B07982BE6363900E25AC6 /* Preview Content */,
 				0B209AD92BE64181008C6E8C /* IntroScene.swift */,
 				0B209ADD2BE64AFC008C6E8C /* TransitionDustScene.swift */,
+				0B209AE12BE64F9A008C6E8C /* TransitionDustAnnouncement.swift */,
 			);
 			path = dontdieinmarsNano;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B209AE42BE64FF6008C6E8C /* dust-announcement.mp3 in Resources */,
 				0B6B079A2BE6363900E25AC6 /* Preview Assets.xcassets in Resources */,
 				0B209ADC2BE649CB008C6E8C /* space-ambient.mp3 in Resources */,
 				0B6B07972BE6363900E25AC6 /* Assets.xcassets in Resources */,
@@ -271,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B209AE22BE64F9A008C6E8C /* TransitionDustAnnouncement.swift in Sources */,
 				0B6B07952BE6363800E25AC6 /* ContentView.swift in Sources */,
 				0B209ADE2BE64AFC008C6E8C /* TransitionDustScene.swift in Sources */,
 				0B209ADA2BE64181008C6E8C /* IntroScene.swift in Sources */,

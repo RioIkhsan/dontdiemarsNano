@@ -23,12 +23,12 @@ class TransitionDustScene: SKScene {
         addChild(background)
     }
     
-    //    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    //        let game = TransitionDustAnnoucementScene(size: self.size)
-    //        let transition = SKTransition.fade(with: .black, duration: 2)
-    //
-    //        self.view?.presentScene(game, transition: transition)
-    //    }
+        override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+            let game = TransitionDustAnnoucementScene(size: self.size)
+            let transition = SKTransition.fade(with: .black, duration: 2)
+    
+            self.view?.presentScene(game, transition: transition)
+        }
     
     func setUpBgm(){
         // Load and play background music
