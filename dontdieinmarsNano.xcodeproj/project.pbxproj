@@ -19,12 +19,16 @@
 		0B5FD71C2BE761B600D86A7E /* heartbeat-12sec.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B5FD71B2BE761B500D86A7E /* heartbeat-12sec.mp3 */; };
 		0B5FD71E2BE7621E00D86A7E /* checksfx.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B5FD71D2BE7621E00D86A7E /* checksfx.mp3 */; };
 		0B6B07932BE6363800E25AC6 /* dontdieinmarsNanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B07922BE6363800E25AC6 /* dontdieinmarsNanoApp.swift */; };
-		0B6B07952BE6363800E25AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B07942BE6363800E25AC6 /* ContentView.swift */; };
+		0B6B07952BE6363800E25AC6 /* ContentViewBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B07942BE6363800E25AC6 /* ContentViewBackup.swift */; };
 		0B6B07972BE6363900E25AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6B07962BE6363900E25AC6 /* Assets.xcassets */; };
 		0B6B079A2BE6363900E25AC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6B07992BE6363900E25AC6 /* Preview Assets.xcassets */; };
 		0B6B07A42BE6363900E25AC6 /* dontdieinmarsNanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B07A32BE6363900E25AC6 /* dontdieinmarsNanoTests.swift */; };
 		0B6B07AE2BE6363900E25AC6 /* dontdieinmarsNanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B07AD2BE6363900E25AC6 /* dontdieinmarsNanoUITests.swift */; };
 		0B6B07B02BE6363900E25AC6 /* dontdieinmarsNanoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B07AF2BE6363900E25AC6 /* dontdieinmarsNanoUITestsLaunchTests.swift */; };
+		0BE141202BE7753A007C9494 /* GameBScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1411F2BE7753A007C9494 /* GameBScene.swift */; };
+		0BE141222BE776AF007C9494 /* meteor-announcement.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE141212BE776AF007C9494 /* meteor-announcement.mp3 */; };
+		0BE141242BE77E7F007C9494 /* WinningBScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE141232BE77E7F007C9494 /* WinningBScene.swift */; };
+		0BE141262BE77F45007C9494 /* EndingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE141252BE77F45007C9494 /* EndingScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +62,7 @@
 		0B5FD71D2BE7621E00D86A7E /* checksfx.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = checksfx.mp3; sourceTree = "<group>"; };
 		0B6B078F2BE6363800E25AC6 /* dontdieinmarsNano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dontdieinmarsNano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6B07922BE6363800E25AC6 /* dontdieinmarsNanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dontdieinmarsNanoApp.swift; sourceTree = "<group>"; };
-		0B6B07942BE6363800E25AC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B6B07942BE6363800E25AC6 /* ContentViewBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBackup.swift; sourceTree = "<group>"; };
 		0B6B07962BE6363900E25AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B6B07992BE6363900E25AC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B6B079F2BE6363900E25AC6 /* dontdieinmarsNanoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dontdieinmarsNanoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +70,10 @@
 		0B6B07A92BE6363900E25AC6 /* dontdieinmarsNanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dontdieinmarsNanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6B07AD2BE6363900E25AC6 /* dontdieinmarsNanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dontdieinmarsNanoUITests.swift; sourceTree = "<group>"; };
 		0B6B07AF2BE6363900E25AC6 /* dontdieinmarsNanoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dontdieinmarsNanoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BE1411F2BE7753A007C9494 /* GameBScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBScene.swift; sourceTree = "<group>"; };
+		0BE141212BE776AF007C9494 /* meteor-announcement.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "meteor-announcement.mp3"; sourceTree = "<group>"; };
+		0BE141232BE77E7F007C9494 /* WinningBScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinningBScene.swift; sourceTree = "<group>"; };
+		0BE141252BE77F45007C9494 /* EndingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +129,9 @@
 				0B209ADF2BE64BE7008C6E8C /* strom-desert.mp3 */,
 				0B5FD71B2BE761B500D86A7E /* heartbeat-12sec.mp3 */,
 				0B5FD71D2BE7621E00D86A7E /* checksfx.mp3 */,
+				0BE141212BE776AF007C9494 /* meteor-announcement.mp3 */,
 				0B6B07922BE6363800E25AC6 /* dontdieinmarsNanoApp.swift */,
-				0B6B07942BE6363800E25AC6 /* ContentView.swift */,
+				0B6B07942BE6363800E25AC6 /* ContentViewBackup.swift */,
 				0B6B07962BE6363900E25AC6 /* Assets.xcassets */,
 				0B6B07982BE6363900E25AC6 /* Preview Content */,
 				0B209AD92BE64181008C6E8C /* IntroScene.swift */,
@@ -131,6 +140,9 @@
 				0B5FD7152BE760D000D86A7E /* GameAScene.swift */,
 				0B5FD7172BE760FD00D86A7E /* WinningAScene.swift */,
 				0B5FD7192BE7611500D86A7E /* LosingAScene.swift */,
+				0BE1411F2BE7753A007C9494 /* GameBScene.swift */,
+				0BE141232BE77E7F007C9494 /* WinningBScene.swift */,
+				0BE141252BE77F45007C9494 /* EndingScene.swift */,
 			);
 			path = dontdieinmarsNano;
 			sourceTree = "<group>";
@@ -265,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B5FD71C2BE761B600D86A7E /* heartbeat-12sec.mp3 in Resources */,
+				0BE141222BE776AF007C9494 /* meteor-announcement.mp3 in Resources */,
 				0B209AE42BE64FF6008C6E8C /* dust-announcement.mp3 in Resources */,
 				0B5FD71E2BE7621E00D86A7E /* checksfx.mp3 in Resources */,
 				0B6B079A2BE6363900E25AC6 /* Preview Assets.xcassets in Resources */,
@@ -296,12 +309,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B5FD71A2BE7611500D86A7E /* LosingAScene.swift in Sources */,
+				0BE141262BE77F45007C9494 /* EndingScene.swift in Sources */,
+				0BE141202BE7753A007C9494 /* GameBScene.swift in Sources */,
 				0B209AE22BE64F9A008C6E8C /* TransitionDustAnnouncement.swift in Sources */,
-				0B6B07952BE6363800E25AC6 /* ContentView.swift in Sources */,
+				0B6B07952BE6363800E25AC6 /* ContentViewBackup.swift in Sources */,
 				0B5FD7162BE760D000D86A7E /* GameAScene.swift in Sources */,
 				0B209ADE2BE64AFC008C6E8C /* TransitionDustScene.swift in Sources */,
 				0B209ADA2BE64181008C6E8C /* IntroScene.swift in Sources */,
 				0B6B07932BE6363800E25AC6 /* dontdieinmarsNanoApp.swift in Sources */,
+				0BE141242BE77E7F007C9494 /* WinningBScene.swift in Sources */,
 				0B5FD7182BE760FD00D86A7E /* WinningAScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

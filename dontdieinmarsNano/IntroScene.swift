@@ -160,3 +160,16 @@ struct IntroSceneView_Previews: PreviewProvider {
             .ignoresSafeArea()
     }
 }
+
+struct ContentView: View {
+    let introScene = IntroScene(fileNamed: "IntroScene")
+    
+    var body: some View {
+        SpriteView(scene: introScene!)
+            .ignoresSafeArea()
+    }
+}
+
+#Preview {
+    ContentView()
+}

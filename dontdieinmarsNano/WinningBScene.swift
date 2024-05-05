@@ -1,8 +1,8 @@
 //
-//  WinningAScene.swift
+//  WinningBScene.swift
 //  dontdieinmarsNano
 //
-//  Created by Rio Ikhsan on 04/05/24.
+//  Created by Rio Ikhsan on 01/05/24.
 //
 
 import Foundation
@@ -10,11 +10,11 @@ import SpriteKit
 import AVFoundation
 
 
-class WinningAScene: SKScene {
+class WinningBScene: SKScene {
     
     private var backgroundMusicPlayer: AVAudioPlayer!
     
-    let background = SKSpriteNode(imageNamed: "winning-scene1")
+    let background = SKSpriteNode(imageNamed: "winning-scene2")
     let check = SKSpriteNode(imageNamed: "checker")
     
     
@@ -31,12 +31,12 @@ class WinningAScene: SKScene {
         }
     }
     
-//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        let game = MeteorScene(size: self.size)
-//        let transition = SKTransition.fade(with: .black, duration: 2)
-//
-//        self.view?.presentScene(game, transition: transition)
-//    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let game = EndingScene(size: self.size)
+        let transition = SKTransition.fade(with: .black, duration: 2)
+        
+        self.view?.presentScene(game, transition: transition)
+    }
     
     func setUpBgm(){
         // Load and play background music
